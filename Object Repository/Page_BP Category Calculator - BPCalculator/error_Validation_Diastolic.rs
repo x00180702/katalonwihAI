@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error_Validation_Diastolic</name>
+   <tag></tag>
+   <elementGuidId>f504f377-2c24-403e-9683-dbc1c26498b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form1']/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>299f7a43-1e9a-458c-8942-b606a196435e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger field-validation-error</value>
+      <webElementGuid>7010f852-48bc-4b85-82ed-5e92053cfe0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-valmsg-for</name>
+      <type>Main</type>
+      <value>BP.Diastolic</value>
+      <webElementGuid>a1be2726-b464-43e0-aa26-df4abadb0209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-valmsg-replace</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>45317dc5-81dd-46f6-943d-c5c8db418d38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The value '55.5' is not valid for Diastolic.</value>
+      <webElementGuid>b20107ad-645b-4aa2-90ea-800681a8c446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form1&quot;)/div[@class=&quot;form-group&quot;]/span[@class=&quot;text-danger field-validation-error&quot;]</value>
+      <webElementGuid>02934596-a29c-4721-97b3-122d44171789</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form1']/div[3]/span</value>
+      <webElementGuid>60f7e775-2899-4f04-b51b-204b7f7d0dd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diastolic'])[1]/following::span[1]</value>
+      <webElementGuid>7469bc6a-0127-40f7-8b8b-0e6d461bf1f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('The value ', &quot;'&quot;, '172.5', &quot;'&quot;, ' is not valid for Systolic.')])[1]/following::span[1]</value>
+      <webElementGuid>10e4b7e2-59a2-41bf-bf8d-9a3f413bf452</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Age'])[1]/preceding::span[1]</value>
+      <webElementGuid>e94853ad-7047-4f92-a3a9-46aa50cc7441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('The value ', &quot;'&quot;, '22.5', &quot;'&quot;, ' is not valid for Age.')])[1]/preceding::span[1]</value>
+      <webElementGuid>41b8f302-dc05-48bc-b8b5-fcc286147c13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>194e25fc-4c49-4985-a920-c503abdb466e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = concat(&quot;The value &quot; , &quot;'&quot; , &quot;55.5&quot; , &quot;'&quot; , &quot; is not valid for Diastolic.&quot;) or . = concat(&quot;The value &quot; , &quot;'&quot; , &quot;55.5&quot; , &quot;'&quot; , &quot; is not valid for Diastolic.&quot;))]</value>
+      <webElementGuid>a1a43803-0549-4588-b571-cddfee6ac110</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

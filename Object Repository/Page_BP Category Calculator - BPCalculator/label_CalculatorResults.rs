@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_CalculatorResults</name>
+   <tag></tag>
+   <elementGuidId>c80edec5-aac6-4726-a4b2-4da499eb590d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[class*=text-danger]>ul>li</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@name='calcResults']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'results' and (text() = ' Ideal Blood Pressure' or . = ' Ideal Blood Pressure')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>627c5896-fe17-4017-80e6-63b2fd010cbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>results</value>
+      <webElementGuid>7b12b214-0237-4254-9c21-43bc633c8ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Ideal Blood Pressure</value>
+      <webElementGuid>4bef259c-d243-4dc1-a561-e9f7b23c6caf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form1&quot;)/div[@class=&quot;form-group&quot;]/label[@id=&quot;results&quot;]</value>
+      <webElementGuid>2a72ad2c-ed01-4413-969d-27112ae28380</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='results']</value>
+      <webElementGuid>3d89d2c1-0e10-416b-a745-f02a7f8b5bea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form1']/div[5]/label</value>
+      <webElementGuid>338134fd-fb1e-46f2-b738-4ee51331e23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Age'])[1]/following::label[1]</value>
+      <webElementGuid>cfa01aa6-fa0e-4b2f-b36a-5908d0cfee65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diastolic'])[1]/following::label[2]</value>
+      <webElementGuid>cd4b0c0f-6ce6-43a4-8279-3e961f58ea83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Average value for your age group [60 and over] is 135/88'])[1]/preceding::label[1]</value>
+      <webElementGuid>8ee0cf87-78b7-406a-9aba-3b402a70d378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mean Arterial Pressure:'])[1]/preceding::label[2]</value>
+      <webElementGuid>0deb9a9e-5526-4aae-bccd-09632d0812b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ideal Blood Pressure']/parent::*</value>
+      <webElementGuid>0b8e3746-ba74-406f-b956-76a8b2816e07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/label</value>
+      <webElementGuid>0556a65b-5d64-43bd-a438-ba536d28b888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'results' and (text() = ' Ideal Blood Pressure' or . = ' Ideal Blood Pressure')]</value>
+      <webElementGuid>aa559784-e475-4811-b84b-481a2d051f19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Error_Age_Validation</name>
+   <tag></tag>
+   <elementGuidId>73c274f8-5058-498f-95a4-d8a87465d434</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='BP_Age']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[data-valmsg-for='BP.Age']</value>
+      <webElementGuid>e5a9422b-f415-4d56-a0e8-5fd7741d399d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
