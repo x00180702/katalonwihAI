@@ -1,4 +1,4 @@
-name: CI
+name: Blood Presure Test Suite
 on:
   push:
     branches: [ main ]
