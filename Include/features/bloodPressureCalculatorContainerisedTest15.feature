@@ -1,11 +1,11 @@
-@bpTest
+@bpcTest
 Feature: Invalid (double) values
 
   
   Scenario: Test case 15
   
     Given user goes to the 'Blood Pressure Containerised' application
-    When user enters "bloodPressureK1" in the Email field on the 'Blood Pressure' calculator pag
+    When user enters "bloodPressureK1" in the Email field on the 'Blood Pressure' calculator page
     When user enters "172.5" in the Systolic field on the 'Blood Pressure' calculator page
     And user enters "66.5" in the Diastolic field on the 'Blood Pressure' calculator page
     And user enters "18.2" in the Age field on the 'Blood Pressure' calculator page

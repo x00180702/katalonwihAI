@@ -1,4 +1,4 @@
-@bpTest
+@bpcTest
 Feature: Out of range age value
 
   
