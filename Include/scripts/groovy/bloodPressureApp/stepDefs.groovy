@@ -56,7 +56,7 @@ class stepDefs {
 		WebUI.openBrowser(' ')
 		WebUI.navigateToUrl('https://bloodpressurecalculator.azurewebsites.net/')
 	}
-	
+
 	@Given("user goes to the 'Blood Pressure Containerised' application")
 	def I_want_to_go_to_BPC_App() {
 		WebUI.openBrowser(' ')
@@ -77,7 +77,7 @@ class stepDefs {
 	public void user_enters_in_the_Age_field_on_the_calculator_page(String value) {
 		WebUI.setText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/input_Age_BP.Age'), value)
 	}
-	
+
 	@When("user enters {string} in the Email field on the 'Blood Pressure' calculator page")
 	public void user_enters_in_the_Email_field_on_the_calculator_page(String value) {
 		WebUI.setText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/input_Email_BP.Email'), value)
@@ -109,7 +109,7 @@ class stepDefs {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_CalculatorResults'))
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
+
 	@Then("{string} results are not displayed on 'Blood Pressure' calculator page")
 	def verify_not_the_calculator_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_CalculatorResults'))
@@ -174,22 +174,22 @@ class stepDefs {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/home_Footer'))
 		assertEquals("Compared values are not equal ",'© 2020 - BPCalculator - Privacy', actualValue)
 	}
-	
+
 	@Then("{string} results are displayed under the 'Age' label on 'Blood Pressure' calculator page")
 	def verify_the_age_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_Age_Results'))
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
-	
-	
+
+
+
 	@Then("{string} results are displayed under the 'Mean Arterial Pressure' label on 'Blood Pressure' calculator page")
 	def verify_the_mean_arterial_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_MAP_Results'))
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
-	
+
+
 	@Then("{string} results are displayed under the 'Pulse Pressure' label on 'Blood Pressure' calculator page")
 	def verify_the_pule_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_PP_Results'))
@@ -201,35 +201,35 @@ class stepDefs {
 	def I_verify_the_status_in_closeBrowser() {
 		WebUI.closeBrowser()
 	}
-	
-	
+
+
 	@Then("{string} results are not displayed under the 'Age' label on 'Blood Pressure' calculator page")
 	def verify_not_the_age_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_Age_Results'))
 		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
-	
-	
+
+
+
 	@Then("{string} results are not displayed under the 'Mean Arterial Pressure' label on 'Blood Pressure' calculator page")
 	def verify_not_the_mean_arterial_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_MAP_Results'))
 		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
-	
+
+
 	@Then("{string} results are not displayed under the 'Pulse Pressure' label on 'Blood Pressure' calculator page")
 	def verify_not_the_pule_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_PP_Results'))
 		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
+
 	@Then("{string} error message is displayed on the 'Blood Pressure Containerised' calculator page")
 	def verify_the_field_error_message_BPC(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/error_bPCError'))
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
+
 	@Then("{string} error message is displayed under the {string} field on 'Blood Pressure Containerised' calculator page")
 	def verify_the_field_error_message_BPC(String expectValue, String field) {
 		String actualValue = WebUI.getAttribute(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/span_Error_'+field+'_BPC', 'validationMessage'))
