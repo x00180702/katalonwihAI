@@ -168,7 +168,7 @@ formatter.match({
   "location": "stepDefs.verify_the_field_error_message(String,String)"
 });
 formatter.result({
-  "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to get text of object\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat ✽.\"The Systolic field is required.\" error message is displayed under the \"Systolic\" field on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest10.feature:12)\nCaused by: java.lang.IllegalArgumentException: Object is null\n\tat com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\n\tat bloodPressureMonolith.run(bloodPressureMonolith:4)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1664811611286.run(TempTestSuite1664811611286.groovy:36)\n",
+  "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to get text of object\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat ✽.\"The Systolic field is required.\" error message is displayed under the \"Systolic\" field on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest10.feature:12)\nCaused by: java.lang.IllegalArgumentException: Object is null\n\tat com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\n\tat bloodPressureMonolith.run(bloodPressureMonolith:4)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1664828477740.run(TempTestSuite1664828477740.groovy:36)\n",
   "status": "failed"
 });
 formatter.step({
@@ -280,7 +280,7 @@ formatter.match({
   "location": "stepDefs.verify_the_field_error_message(String,String)"
 });
 formatter.result({
-  "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to get text of object\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat ✽.\"Invalid Systolic Value\" error message is displayed under the \"Systolic\" field on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest11.feature:12)\nCaused by: java.lang.IllegalArgumentException: Object is null\n\tat com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\n\tat bloodPressureMonolith.run(bloodPressureMonolith:4)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1664811611286.run(TempTestSuite1664811611286.groovy:36)\n",
+  "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to get text of object\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat ✽.\"Invalid Systolic Value\" error message is displayed under the \"Systolic\" field on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest11.feature:12)\nCaused by: java.lang.IllegalArgumentException: Object is null\n\tat com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)\n\tat com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_field_error_message(stepDefs.groovy:127)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\n\tat bloodPressureMonolith.run(bloodPressureMonolith:4)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1664828477740.run(TempTestSuite1664828477740.groovy:36)\n",
   "status": "failed"
 });
 formatter.step({
@@ -1642,8 +1642,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_calculator_results(String)"
 });
 formatter.result({
-  "error_message": "groovy.lang.MissingMethodException: No signature of method: bloodPressureApp.stepDefs.assertNotEquals() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [Compared values are not equal , Ideal Blood Pressure, Low Blood Pressure]\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:71)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:80)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat bloodPressureApp.stepDefs.verify_not_the_calculator_results(stepDefs.groovy:116)\n\tat ✽.\"Ideal Blood Pressure\" results are not displayed on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest18.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Average value for your age group [25-29] is 127/84\" results are not displayed under the \u0027Age\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1653,7 +1652,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_age_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Mean Arterial Pressure: 151\" results are not displayed under the \u0027Mean Arterial Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1663,7 +1662,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_mean_arterial_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Pulse Pressure: 11\" results are not displayed under the \u0027Pulse Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1673,7 +1672,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_pule_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
@@ -1683,7 +1682,7 @@ formatter.match({
   "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Test case 18",
@@ -1753,8 +1752,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_calculator_results(String)"
 });
 formatter.result({
-  "error_message": "groovy.lang.MissingMethodException: No signature of method: bloodPressureApp.stepDefs.assertNotEquals() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [Compared values are not equal , High Blood Pressure, Ideal Blood Pressure]\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:71)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:80)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat bloodPressureApp.stepDefs.verify_not_the_calculator_results(stepDefs.groovy:116)\n\tat ✽.\"High Blood Pressure\" results are not displayed on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest18.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Average value for your age group [30-34] is 120/79\" results are not displayed under the \u0027Age\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1764,7 +1762,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_age_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Mean Arterial Pressure: 131\" results are not displayed under the \u0027Mean Arterial Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1774,7 +1772,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_mean_arterial_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Pulse Pressure: 21\" results are not displayed under the \u0027Pulse Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1784,7 +1782,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_pule_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
@@ -1794,7 +1792,7 @@ formatter.match({
   "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Test case 18",
@@ -1864,8 +1862,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_calculator_results(String)"
 });
 formatter.result({
-  "error_message": "groovy.lang.MissingMethodException: No signature of method: bloodPressureApp.stepDefs.assertNotEquals() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [Compared values are not equal , Low Blood Pressure, Pre-High Blood Pressure]\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:71)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:80)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat bloodPressureApp.stepDefs.verify_not_the_calculator_results(stepDefs.groovy:116)\n\tat ✽.\"Low Blood Pressure\" results are not displayed on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest18.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Average value for your age group [15-19] is 121/80\" results are not displayed under the \u0027Age\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1875,7 +1872,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_age_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Mean Arterial Pressure: 194\" results are not displayed under the \u0027Mean Arterial Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1885,7 +1882,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_mean_arterial_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Pulse Pressure: 31\" results are not displayed under the \u0027Pulse Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1895,7 +1892,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_pule_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
@@ -1905,7 +1902,7 @@ formatter.match({
   "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Test case 18",
@@ -1975,8 +1972,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_calculator_results(String)"
 });
 formatter.result({
-  "error_message": "groovy.lang.MissingMethodException: No signature of method: bloodPressureApp.stepDefs.assertNotEquals() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [Compared values are not equal , Pre-High Blood Pressure, High Blood Pressure]\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:71)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:80)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat bloodPressureApp.stepDefs.verify_not_the_calculator_results(stepDefs.groovy:116)\n\tat ✽.\"Pre-High Blood Pressure\" results are not displayed on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest18.feature:12)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Average value for your age group [20-24] is 123/82\" results are not displayed under the \u0027Age\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1986,7 +1982,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_age_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Mean Arterial Pressure: 245\" results are not displayed under the \u0027Mean Arterial Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -1996,7 +1992,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_mean_arterial_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "\"Pulse Pressure: 41\" results are not displayed under the \u0027Pulse Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
@@ -2006,7 +2002,7 @@ formatter.match({
   "location": "stepDefs.verify_not_the_pule_pressure_results(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
@@ -2016,7 +2012,7 @@ formatter.match({
   "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("Include/features/bloodPressureCalculatorTest19.feature");
 formatter.feature({
@@ -2512,4 +2508,609 @@ formatter.step({
 });
 formatter.match({
   "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"High Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Average value for your age group [30-34] is 123/82\" results are displayed under the \u0027Age\u0027 label on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_age_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Mean Arterial Pressure: 246\" results are displayed under the \u0027Mean Arterial Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_mean_arterial_pressure_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Pulse Pressure: 81\" results are displayed under the \u0027Pulse Pressure\u0027 label on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_pule_pressure_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("Include/features/bloodPressureCalculatorTest2.feature");
+formatter.feature({
+  "name": "Pre-High Blood Pressure",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Test case 2",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"100\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"80\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"80\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Pre-High Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: Compared values are not equal  expected:\u003c[Pre-High] Blood Pressure\u003e but was:\u003c[Ideal] Blood Pressure\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert$assertEquals.callStatic(Unknown Source)\n\tat bloodPressureApp.stepDefs.verify_the_calculator_results(stepDefs.groovy:110)\n\tat ✽.\"Pre-High Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page(Include/features/bloodPressureCalculatorTest2.feature:12)\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.uri("Include/features/bloodPressureCalculatorTest20.feature");
+formatter.feature({
+  "name": "Multiple Scenarios in 1 script",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Multi-Test case 1",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"70\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"40\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"40\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Low Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Multi-Test case 2",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"110\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"40\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"20\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Ideal Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Multi-Test case 3",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"121\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"82\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"55\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Pre-High Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Multi-Test case 4",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"140\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"100\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"80\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"High Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("Include/features/bloodPressureCalculatorTest3.feature");
+formatter.feature({
+  "name": "Ideal Blood Pressure",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Test case 3",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BP_App()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"100\" in the Systolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Systolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"60\" in the Diastolic field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Diastolic_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"60\" in the Age field on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.user_enters_in_the_Age_field_on_the_calculator_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the submit button on the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_submitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Ideal Blood Pressure\" results are displayed on \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.verify_the_calculator_results(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user closes the \u0027Blood Pressure\u0027 calculator page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.I_verify_the_status_in_closeBrowser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("Include/features/bloodPressureCalculatorTest4.feature");
+formatter.feature({
+  "name": "High Blood Pressure",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Test case 4",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@bpTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user goes to the \u0027Blood Pressure Containerised\u0027 application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.I_want_to_go_to_BPC_App()"
 });
