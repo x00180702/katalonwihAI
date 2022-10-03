@@ -53,13 +53,13 @@ class stepDefs {
 	 */
 	@Given("user goes to the 'Blood Pressure' application")
 	def I_want_to_go_to_BP_App() {
-		WebUI.openBrowser(' ')
+		WebUI.openBrowser('https://bloodpressurecalculator.azurewebsites.net/')
 		WebUI.navigateToUrl('https://bloodpressurecalculator.azurewebsites.net/')
 	}
 
 	@Given("user goes to the 'Blood Pressure Containerised' application")
 	def I_want_to_go_to_BPC_App() {
-		WebUI.openBrowser(' ')
+		WebUI.openBrowser('http://51.142.152.185:22137')
 		WebUI.navigateToUrl('http://51.142.152.185:22137')
 	}
 
