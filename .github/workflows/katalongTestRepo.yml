@@ -16,6 +16,6 @@ jobs:
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
-          version: '7.9.1'
+          version: '8.5.1'
           projectPath: '${{ github.workspace }}'
           args: '-noSplash -retry=0 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureMono" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
