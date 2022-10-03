@@ -113,7 +113,7 @@ class stepDefs {
 	@Then("{string} results are not displayed on 'Blood Pressure' calculator page")
 	def verify_not_the_calculator_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_CalculatorResults'))
-		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
+		WebUI.verifyNotEqual(expectValue, actualValue)
 	}
 
 	@Then("'Systolic must be greater than Diastolic' error is displayed on 'Blood Pressure' calculator page")
@@ -206,7 +206,7 @@ class stepDefs {
 	@Then("{string} results are not displayed under the 'Age' label on 'Blood Pressure' calculator page")
 	def verify_not_the_age_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_Age_Results'))
-		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
+		WebUI.verifyNotEqual(expectValue, actualValue)
 	}
 
 
@@ -214,14 +214,14 @@ class stepDefs {
 	@Then("{string} results are not displayed under the 'Mean Arterial Pressure' label on 'Blood Pressure' calculator page")
 	def verify_not_the_mean_arterial_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_MAP_Results'))
-		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
+		WebUI.verifyNotEqual(expectValue, actualValue)
 	}
 
 
 	@Then("{string} results are not displayed under the 'Pulse Pressure' label on 'Blood Pressure' calculator page")
 	def verify_not_the_pule_pressure_results(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/label_PP_Results'))
-		assertNotEquals("Compared values are not equal ",expectValue, actualValue)
+		WebUI.verifyNotEqual(expectValue, actualValue)
 	}
 
 	@Then("{string} error message is displayed on the 'Blood Pressure Containerised' calculator page")
