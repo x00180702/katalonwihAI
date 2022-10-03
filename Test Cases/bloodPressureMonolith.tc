@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>BloodPressureMono</name>
+   <name>bloodPressureMonolith</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>173468db-147e-422d-b4ef-a1adc455aba8</testCaseGuid>
+   <testCaseGuid>318ed99d-ac28-44d1-9cba-57447a183be8</testCaseGuid>
 </TestCaseEntity>

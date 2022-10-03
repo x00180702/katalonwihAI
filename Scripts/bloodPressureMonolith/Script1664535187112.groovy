@@ -1,7 +1,6 @@
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-import bloodPressureApp.CucumberRunner
-
+import CucumberRunner
 
 CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
