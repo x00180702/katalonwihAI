@@ -1,0 +1,21 @@
+name: Blood Presure Test Suite - Containerised App
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: browser-actions/setup-chrome@latest
+    - run: chrome --version
+    - name: Checkout
+      uses: actions/checkout@v2.4.0
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2
+      with:
+          version: '8.5.1'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureContainerisedTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
