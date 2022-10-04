@@ -59,8 +59,8 @@ class stepDefs {
 
 	@Given("user goes to the 'Blood Pressure Containerised' application")
 	def I_want_to_go_to_BPC_App() {
-		WebUI.openBrowser('http://51.142.152.185:22137')
-		WebUI.navigateToUrl('http://51.142.152.185:22137')
+		WebUI.openBrowser('http://20.150.152.147:22137')
+		WebUI.navigateToUrl('http://20.150.152.147:22137')
 	}
 
 	@When("user enters {string} in the Systolic field on the 'Blood Pressure' calculator page")
@@ -235,4 +235,23 @@ class stepDefs {
 		String actualValue = WebUI.getAttribute(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/span_Error_'+field+'_BPC', 'validationMessage'))
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
+	
+	@Then("'Your Previous Readings' header is displayed on Table on the 'Blood Pressure Containerised' calculator page")
+	def verify_the_table_header() {
+		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_header'))
+		assertEquals("Compared values are not equal ",'Your Previous Readings', actualValue)
+	}
+	
+	@Then("{string} is displayed on Table on the 'Blood Pressure Containerised' calculator page")
+	def verify_the_table_body(String expectValue) {
+		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_body'))
+		WebUI.verifyMatch(actualValue, ".*"+expectValue+".*", true)
+	}
+	
+	@Then("{string} is not displayed on Table on the 'Blood Pressure Containerised' calculator page")
+	def verify_not_the_table_body(String expectValue) {
+		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_body'))
+		WebUI.verifyNotMatch(actualValue, ".*"+expectValue+".*", true)
+	}
+
 }
