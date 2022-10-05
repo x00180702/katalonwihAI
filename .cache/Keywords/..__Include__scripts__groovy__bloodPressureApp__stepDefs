@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "38D2691209F1B7C9FF34D2CE5183F1BA",
+  "keywordFileContentHash": "C7FECE0182BA7C06CCFC76F03B96067E",
   "keywordClasses": [
     {
       "name": "bloodPressureApp.stepDefs",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
