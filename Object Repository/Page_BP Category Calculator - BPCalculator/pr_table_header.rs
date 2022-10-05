@@ -6,12 +6,11 @@
    <elementGuidId>d5546287-ccf9-4446-bfc4-a981823e8972</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@id='container']//div[@id='logo'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='logo'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
