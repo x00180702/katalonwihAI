@@ -13,8 +13,8 @@ Feature: Invalid (char) values
     Then "Please enter a number." error message is displayed under the "Systolic" field on 'Blood Pressure Containerised' calculator page
     When user enters "172" in the Systolic field on the 'Blood Pressure' calculator page
     Then user clicks on the submit button on the 'Blood Pressure' calculator page
-    Then "Please enter a number." error message is displayed under the "Systolic" field on 'Blood Pressure Containerised' calculator page
+    Then "Please enter a number." error message is displayed under the "Diastolic" field on 'Blood Pressure Containerised' calculator page
     And user enters "66" in the Diastolic field on the 'Blood Pressure' calculator page 
     Then user clicks on the submit button on the 'Blood Pressure' calculator page
-    Then "Please enter a number." error message is displayed under the "Systolic" field on 'Blood Pressure Containerised' calculator page
+    Then "Please enter a number." error message is displayed under the "Age" field on 'Blood Pressure Containerised' calculator page
     And user closes the 'Blood Pressure' calculator page

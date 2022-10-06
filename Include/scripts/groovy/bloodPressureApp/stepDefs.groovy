@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.networknt.schema.ValidationMessage
 
 import internal.GlobalVariable
 
@@ -232,7 +233,7 @@ class stepDefs {
 
 	@Then("{string} error message is displayed under the {string} field on 'Blood Pressure Containerised' calculator page")
 	def verify_the_field_error_message_BPC(String expectValue, String field) {
-		String actualValue = WebUI.getAttribute(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/span_Error_'+field+'Field_BPC', 'validationMessage'))
+		String actualValue = WebUI.getAttribute(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/validation_'+field+''),'validationMessage')
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
 	

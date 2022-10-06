@@ -13,7 +13,7 @@ Feature: Check Previous Results
     Then user clicks on the submit button on the 'Blood Pressure' calculator page
     Then "High Blood Pressure" results are displayed on 'Blood Pressure' calculator page
     Then 'Your Previous Readings' header is displayed on Table on the 'Blood Pressure Containerised' calculator page
-    Then "Low" is displayed on Table on the 'Blood Pressure Containerised' calculator page
-    Then "120" is displayed on Table on the 'Blood Pressure Containerised' calculator page
-    Then "60" is displayed on Table on the 'Blood Pressure Containerised' calculator page
+    Then "High" is displayed on Table on the 'Blood Pressure Containerised' calculator page
+    Then "180" is displayed on Table on the 'Blood Pressure Containerised' calculator page
+    Then "90" is displayed on Table on the 'Blood Pressure Containerised' calculator page
     And user closes the 'Blood Pressure' calculator page
