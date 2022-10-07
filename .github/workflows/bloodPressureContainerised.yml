@@ -4,10 +4,11 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  schedule:
+    - cron: '41 9-18 * * *'
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version
