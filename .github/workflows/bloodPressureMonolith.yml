@@ -1,4 +1,4 @@
-name: Blood Presure Test Suite
+name: Blood Presure Test Suite Monolith
 on:
   push:
     branches: [ main ]
