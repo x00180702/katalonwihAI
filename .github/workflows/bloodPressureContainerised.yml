@@ -1,7 +1,9 @@
 name: Blood Presure Test Suite - Containerised App
 on:
   schedule:
-    - cron: '51 9-18 * * *'
+    - cron: '41 9-18 * * *'
+
+
 
 jobs:
   build:
