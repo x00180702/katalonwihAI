@@ -1,11 +1,11 @@
 name: Blood Presure Test Suite Monolith
-# on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-#   schedule:
-#     - cron: '15 9-18 * * *'
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '40,50 3-8 * * *'
 jobs:
   build:
     runs-on: ubuntu-18.04
