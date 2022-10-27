@@ -63,6 +63,7 @@ class stepDefs {
 	def I_want_to_go_to_BPC_App() {
 		WebUI.openBrowser('http://20.90.193.20:22137')
 		WebUI.navigateToUrl('http://20.90.193.20:22137')
+		WebUI.takeScreenshotAsCheckpoint('containerised')
 	}
 
 	@When("user enters {string} in the Systolic field on the 'Blood Pressure' calculator page")
