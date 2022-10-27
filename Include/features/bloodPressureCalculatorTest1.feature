@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@bpTest
+@bpTest @test
 Feature: Low Blood Pressure
 
   
