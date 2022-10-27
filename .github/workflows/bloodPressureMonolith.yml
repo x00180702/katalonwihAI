@@ -1,10 +1,8 @@
-name: Blood Presure Test Suite
+name: Blood Presure Test Suite Monolith
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+  workflow_dispatch:
+#   schedule:
+#     - cron: '5/25 11-16 * * *'
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -16,6 +14,6 @@ jobs:
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
-          version: '8.5.1'
+          version: '8.5.2'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureMonoTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
+          args: '-noSplash -retry=1 -retryFailedTestCases=True -testSuiteCollectionPath="Test Suites/BloodPressureMonoTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
