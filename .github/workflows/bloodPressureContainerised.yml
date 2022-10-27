@@ -1,9 +1,14 @@
 name: Blood Presure Test Suite - Containerised App
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+#   schedule:
+#     - cron: '10,50 02-23 * * *'
+
+
 
 jobs:
   build:

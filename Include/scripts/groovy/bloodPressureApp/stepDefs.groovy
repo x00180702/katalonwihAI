@@ -56,6 +56,7 @@ class stepDefs {
 	def I_want_to_go_to_BP_App() {
 		WebUI.openBrowser('https://bloodpressurecalculator.azurewebsites.net/')
 		WebUI.navigateToUrl('https://bloodpressurecalculator.azurewebsites.net/')
+		WebUI.takeScreenshotAsCheckpoint('login')
 	}
 
 	@Given("user goes to the 'Blood Pressure Containerised' application")
@@ -102,6 +103,7 @@ class stepDefs {
 	@Then("user clicks on the submit button on the 'Blood Pressure' calculator page")
 	def I_verify_the_status_in_submitButton() {
 		WebUI.click(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/input_Diastolic_btn btn-default'))
+		WebUI.takeScreenshotAsCheckpoint('submit')
 	}
 
 

@@ -1,2 +1,2 @@
 # katalonTestRepo
-Automated Testing Repo using Katalon Studios 2022
+Automated Testing Repo using Katalon Studios 2022.
