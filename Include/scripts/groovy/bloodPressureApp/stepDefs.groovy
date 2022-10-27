@@ -236,23 +236,22 @@ class stepDefs {
 		String actualValue = WebUI.getAttribute(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/validation_'+field+''),'validationMessage')
 		assertEquals("Compared values are not equal ",expectValue, actualValue)
 	}
-	
+
 	@Then("'Your Previous Readings' header is displayed on Table on the 'Blood Pressure Containerised' calculator page")
 	def verify_the_table_header() {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_header'))
 		assertEquals("Compared values are not equal ",'Your Previous Readings', actualValue)
 	}
-	
+
 	@Then("{string} is displayed on Table on the 'Blood Pressure Containerised' calculator page")
 	def verify_the_table_body(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_body'))
 		WebUI.verifyMatch(actualValue, ".*"+expectValue+".*", true)
 	}
-	
+
 	@Then("{string} is not displayed on Table on the 'Blood Pressure Containerised' calculator page")
 	def verify_not_the_table_body(String expectValue) {
 		String actualValue = WebUI.getText(findTestObject('Object Repository/Page_BP Category Calculator - BPCalculator/pr_table_body'))
 		WebUI.verifyNotMatch(actualValue, ".*"+expectValue+".*", true)
 	}
-
 }
