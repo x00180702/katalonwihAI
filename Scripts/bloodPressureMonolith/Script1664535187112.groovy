@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
-CucumberKW.runFeatureFolderWithTags('Include/features', "@test")
+CucumberKW.runFeatureFolderWithTags('Include/features', "@bpTest")
 
