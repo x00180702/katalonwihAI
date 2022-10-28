@@ -23,4 +23,4 @@ jobs:
       with:
           version: '8.5.1'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureContainerisedTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
+          args: '-noSplash -retry=1 -retryFailedTestCases=True -testSuiteCollectionPath="Test Suites/BloodPressureContainerisedTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
