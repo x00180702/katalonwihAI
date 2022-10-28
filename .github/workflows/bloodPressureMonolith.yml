@@ -2,7 +2,7 @@ name: Blood Presure Test Suite Monolith
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5/25 01-23 * * *'
+    - cron: '5/25,45 01-23 * * *'
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -16,4 +16,4 @@ jobs:
       with:
           version: '8.5.2'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureMonoTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
+          args: '-noSplash -retry=1 -retryFailedTestCases=False -testSuiteCollectionPath="Test Suites/BloodPressureMonoTestCollection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=false'
