@@ -61,8 +61,8 @@ class stepDefs {
 
 	@Given("user goes to the 'Blood Pressure Containerised' application")
 	def I_want_to_go_to_BPC_App() {
-		WebUI.openBrowser('http://20.26.180.78:22137')
-		WebUI.navigateToUrl('http://20.26.180.78:22137')
+		WebUI.openBrowser('http://20.90.193.20:22137')
+		WebUI.navigateToUrl('http://20.90.193.20:22137')
 		WebUI.takeScreenshotAsCheckpoint('containerised')
 	}
 
